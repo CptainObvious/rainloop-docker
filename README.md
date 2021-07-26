@@ -4,7 +4,7 @@
 
 `Dockerfile` and compose file to run the [rainloop](https://www.rainloop.net) webmail client.
 
-The image lives at [Docker hub](https://hub.docker.com/r/waldner/rainloop).
+The image lives at [Docker hub](https://hub.docker.com/r/cptainobvious/rainloop).
 
 ### Using the image
 
@@ -15,7 +15,7 @@ version: "3.3"
 
 services:
   rainloop:
-    image: waldner/rainloop:1.15.0-php7.4.16
+    image: cptainobvious/rainloop:1.16.0-php7.4.16
     container_name: rainloop
     hostname: rainloop
     volumes:
